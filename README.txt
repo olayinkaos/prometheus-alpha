@@ -1,3 +1,2 @@
-"Hello everyone, My name is Efe Fregene. 
-I'm the Jon Snow of the tech/developer world (I know nothing but I am destined to be great in this ans yes Olayinka, this is another GOT reference).
-I have basal knowledge of HTML and Java Language. So yeah, that's me" 
+I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God,who loved me, and gave himself for me.
+-Galatians 2:20 King James Version (KJV)
