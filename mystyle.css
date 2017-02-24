@@ -1,0 +1,70 @@
+#pbody{
+	background-image: url("verticalAutumn.jpg");
+	background-size: 170px 650px;
+	background-repeat: no-repeat;
+}
+body{
+	margin-bottom: 100px;
+}
+
+.TopSpot {
+	width: 90%;
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 40px;
+    border-top: 1px solid black;
+	border-bottom:1px solid black;
+	padding-left: 150px
+
+} 
+table#gitTable{
+	width:70%; 
+    margin-left:25%; 
+    margin-right:5%;
+}
+html{
+	position: relative;
+	min-height: 100%;
+}
+p{
+	text-align: center;
+}
+footer{
+position:absolute;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+a {
+	text-decoration: none;
+	color: black;}
+
+img.displayed{
+	display: block;
+	margin: 0 auto;
+
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Verdana";
+	margin-bottom: 50px;
+
+}
+
+h2{
+	text-align: center;
+}
+
+q{
+
+   	display: block;
+    margin-top:1em;
+    margin-bottom: 1em;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
