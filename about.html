@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 	<html>
-		<head>
+		<head>  <meta charset="utf-8"/>
 			<title> ABOUT ME</title>
 			<style>
 			blockquote { 
@@ -10,6 +10,14 @@
     			margin-left: 60px;
     			margin-right: 60px;
 			}
+			table, th, td {
+		    border: 1px solid black;
+		     border-spacing: 5px;
+		      padding: 15px;
+		      text-align: left;
+
+				}
+
 			</style>
 		</head>
 		<body>
@@ -46,9 +54,33 @@
   </tr>
 </table>
 
+<P>CONTACT ME</P>
+<FORM style="width:50%">
+<fieldset>
+    <legend>Personal information:</legend>
+	First name:<br>
+ 	<input type="text" name="firstname"><br>
+ 	Last name:<br>
+ 	<input type="text" name="lastname"><br>
+ 	 Email Address:<br>
+  	<input type="email" name="Email"><br>
+ </fieldset>
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="Transgender/animal"> Other<br>
 
-<a href="portfolio.html">Visit my portfolio</a>
+ 	Enter Message here:<br>
+ 	 <input type="text" name="Message">
+
+ 	  <input type="submit" value="Submit">
+</FORM>
+
+<br>
+<br>
+<br>
+
+<a href="portfolio.html">Visit my portfolio</a><br>
 
 <a href="index.html">click here to go back</a>
 		</body>
-	</html>
+</html>
