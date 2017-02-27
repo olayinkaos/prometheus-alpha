@@ -3,56 +3,34 @@
 <head>
 	<title>About</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<style type="text/css">
-		input[type=submit] {
-	    width: 100%;
-	    background-color: #4CAF50;
-	    color: white;
-	    padding: 14px 20px;
-	    margin: 8px 0;
-	    border: none;
-	    border-radius: 4px;
-	    cursor: pointer
-		}
-		input[type=text]{
-	    width: 100%;
-	    padding: 12px 20px;
-	    margin: 8px 0;
-	    display: inline-block;
-	    border: 1px solid #ccc;
-	    border-radius: 4px;
-	    box-sizing: border-box;
-		}
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-		input[type=submit]:hover {
-		    background-color: #45a049;
-		}
-
-	div {
-	    border-radius: 5px;
-	    background-color: #f2f2f2;
-	    padding: 20px;
-	}
-
-	</style>
 </head>
 <body>
-	<table class="TopSpot" style = "width:90%">
+	
+	<!-- <table class="TopSpot">
 		<tr>
 			<th><a href="index.html">Index</a></th>
 			<th><a href="about.html">About</a></th>
 			<th><a href="portfolio.html">Portfolio</a></th>
 		</tr>
-	</table>
+	</table> -->
+	<nav class="main-nav">
+		<ul class="main-nav__item">
+			<li class="main-nav__items"><a href="index.html">Index</a></li>
+			<li class="main-nav__items" id="active"><a href="about.html">About</a></li>
+			<li class="main-nav__items"><a href="shapes.html">Shapes</a></li>
+			<li class="main-nav__items"><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+	</nav>
 
-	<p style="text-align: left">Here is a quote from Today's Prometheus README.txt</p>
-	<blockquote cite="https://github.com/olayinkaos/prometheus-alpha/blob/efefregene/readme.txt"> I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.<br>-Galatians 2:20 King James Version (KJV)
+	<br><div class="inner-left">Here is a quote from Today's Prometheus README.txt</div>
+	<blockquote class="left" cite="https://github.com/olayinkaos/prometheus-alpha/blob/efefregene/readme.txt"> I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.<br>-Galatians 2:20 King James Version (KJV)
 	</blockquote><br>
 
-<h2 style="text-align: center">MY GIT RELATED GIST</h2>
+<h2 id="gitHeader">MY GIT RELATED GIST</h2>
 	<table id="gitTable">
-		<tr style="text-align:left">
+		<tr class="toTheLeft">
 			<th>GIT Command</th>
 			<th>Corresponding Action</th>
 		</tr>
@@ -70,8 +48,8 @@
 		</tr>
 	</table><br>
 
-<h3>To send any message, fill your details below</h3>
-<div >
+<h3 class="inner-left">To send any message, fill your details below</h3>
+<div class="formStyle">
   <form action="/action_page.php">
     <label for="fname">First Name</label><br>
     <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
@@ -82,12 +60,17 @@
     <label for="message">Message</label><br>
     <input type="text" id="message" name="message" placeholder="Your Message.."><br>
   
-    <input type="submit" value="Submit">
+    <input type="submit" id="submitId" value="Submit">
   </form>
 </div>
 <footer>
-  <p>Posted by: Efe Fregene <br> Contact information: <a href="mailto:efe.fregene@gmail.com">
-  efe.fregene@gmail.com</a>.</p>
+  <!--<p>Posted by: Efe Fregene <br> Contact information: <a href="mailto:efe.fregene@gmail.com">
+  efe.fregene@gmail.com</a>.</p>-->
+  <nav class="main-nav">
+		<ul class="footer-bar">
+			<li class="footer-info"><a href="mailto:efe.fregene@gmail.com">Posted by: Efe Fregene</a></li>
+		</ul>
+	</nav>
 </footer>
 </body>
 </html>

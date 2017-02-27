@@ -3,27 +3,51 @@
 <head>
 	<title>Index</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body id="pbody">
-	<table class="TopSpot" style = "width:90%">
+<body>
+	<!-- <table class="TopSpot">
 		<tr>
 			<th><a href="index.html">Index</a></th>
 			<th><a href="about.html">About</a></th>
 			<th><a href="portfolio.html">Portfolio</a></th>
 		</tr>
-	</table>
+	</table> -->
+	<nav class="main-nav">
+		<ul class="main-nav__item">
+			<li class="main-nav__items" id="active"><a href="index.html">Index</a></li>
+			<li class="main-nav__items"><a href="about.html">About</a></li>
+			<li class="main-nav__items"><a href="shapes.html">Shapes</a></li>
+			<li class="main-nav__items"><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+	</nav>
+
 	<h1>Introduction</h1>
 	<h2>Dawn</h2>
-	<p>Our Prometheus coach has given us the right to rant on this platform so that's kinda nice. I will rather just type whatever comes to mind. What do I want to talk about now oo.... <br>
-	Like Zira, I will list the memebers of the group namely: Ayoola, Benn, Dotun, Olajire, Shiewhun, Tochukwu, Zira and me. Is it long enough now?</p>
+	<p class="inner-left">Our Prometheus coach has given us the right to rant on this platform so that's kinda nice. I will rather just type whatever comes to mind. What do I want to talk about now oo...Like Zira, I will list the memebers of the group namely: Ayoola, Benn, Dotun, Olajire, Shiewhun, Tochukwu, Zira and me. Is it long enough now?</p>
 	<h2>Mid-day</h2>
-	<p>From 9am till 4pm in Uyo is as hot as mid day</p>
+	<p class="inner-left">From 9am till 4pm in Uyo is as hot as mid day</p>
 	<h2>Dusk</h2>
 	<q>Valar Morghulis is a common greeting in Braavos, meaning "all men must die" in High Valyrian. It is meant in the sense of "all men must (eventually) die," sooner or later, somewhat like the Latin saying "memento mori." The customary response is Valar Dohaeris — "all men must serve."<br> <br>Now that been said... Aurevior</q>
+
+	<h2>Difference between Ids and classes</h2>
+	<p class="inner-left">Having used these attributes on numerous occasions making this HTML and CSS exclusive website, I would like to proffer differences between these attributes from personal experience </p>
+	<ul class="inner-left">
+		<li>
+			IDs are used to identify a specific (singular) attribute while Class can be used identify more than one attribute.
+		</li>
+		<li>
+			When IDs are referred to in in a stylesheet or in the Head of a particular HTML file, it is preceeded by a '#' while a Class is preceeded by a period sign
+		</li>
+	</ul>
 <footer>
-  <p>Posted by: Efe Fregene <br> Contact information: <a href="mailto:efe.fregene@gmail.com">
-  efe.fregene@gmail.com</a>.</p>
+  <!--<p>Posted by: Efe Fregene <br> Contact information: <a href="mailto:efe.fregene@gmail.com">
+  efe.fregene@gmail.com</a>.</p>-->
+  <nav class="main-nav">
+		<ul class="footer-bar">
+			<li class="footer-info"><a href="mailto:efe.fregene@gmail.com">Posted by: Efe Fregene</a></li>
+		</ul>
+	</nav>
 </footer>
 </body>
 </html>
