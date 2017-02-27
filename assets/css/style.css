@@ -1,0 +1,56 @@
+     h2 {
+     font-family:tahoma;
+     text-align:center;
+     }
+     
+     #firstIndexParagraph {
+     font-size:20px;
+     font-family:tahoma;
+     }
+      
+     #rectangle {
+		 width:200px; 
+		 height:100px;
+		 background:red;
+		 margin:30px;
+		 }
+     #square {
+		 width:100px;
+		 height:100px;
+		 background:teal;
+		 margin:30px;
+		 }
+     #circle {
+		 width:100px;
+		 height:100px;
+		 background:purple;
+		 -moz-border-radius:50px;
+		 -webkit-border-radius:50px;
+		 border-radius:50px;
+		  margin:30px;
+		 }
+     #triangle {
+		 width:0;
+		 height:0;
+		 border-left:50px solid transparent; 
+		 border-right: 50px solid transparent;
+		 border-bottom:100px solid yellow;
+		 margin:30px;
+		 }
+		 
+		 .navbar{background-image:linear-gradient(#54B4EB, #2FA4E7 60%, #1D9CE5);
+				background-repeat:no-repeat; bottom-border; 1px solid #178 ACC;
+				box-shadow: 0px 1px 10px rgba(0,0,0,o.1);
+					}
+		    .navbar-default {background-color: #2FA4E7; border-color: #1995DC;}
+		    
+		    .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, 
+		    .navbar-default .navbar-brand:focus, 
+		    .navbar-default .navbar-nav > li > a {color: #FFF;}
+		    
+		    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {color:#FFF;background-color:#178ACC;}
+		    .navbar-default:focus, .navbar-default:hover {background-color:#178ACC;}
+		    .navbar-default {border-color:#178ACC;}
+		    .navbar-default {background-color:#FFF;}
+		    .active a{color:#FFFFFF;background-color:#178ACC !important;}
+		    .active a:focus{color:#FFF;}
