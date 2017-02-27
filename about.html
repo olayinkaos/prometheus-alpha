@@ -3,13 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>About</title>
-  </head>
+    <style media="screen">
+      #secondary-text {
+        border-style: solid;
+        border-width: medium;
+        border-color: black;
+        text-align: center;
+      margin: 30px 0px 20px 0px;
+    }
+    #third-class {
+      border-style: solid;
+      border-width: medium;
+      border-color: black;
+      text-align: center;
+    margin: 30px 0px 20px 0px;
+  }
+    </style>
+    </head>
   <body>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Portfolio.html">Portfolio</a></li>
-      <li><a href="About.html">About</a></li>
-    </ul>
+    <table class="TopSpot" style = "width:90%" border="solid" align="center">
+  		<tr>
+  			<th><a href="index.html">Index</a></th>
+  			<th><a href="about.html">About</a></th>
+  			<th><a href="portfolio.html">Portfolio</a></th>
+  		</tr>
+  	</table>
+  <div id="secondary-text">
     <h1>About Me</h1>
     <p>My name is Ayola Oni and i am a Businessman <br>
 I actually want to be the business, man but hey! You gotta start from somewhere right ?<br>
@@ -17,19 +36,43 @@ Oh i am learning how to code because i want to build an AI girlfriend for my fri
 </p>
 <blockquote cite="notesfromayola.wordpress.com">That is my blog URL, please check it out to know more about me
 </blockquote>
-<table style="width:100%">
-  <tr>
-    <th>GIT command</th>
-    <th colspan="2">Function</th>
-  </tr>
-<tr>
-  <td>git init</td>
- <td>Create a working copy of a local repository:</td>
- <td>git status</td>
- <td> 	List the files you've changed and those you still need to add or commit</td>
- <td>git branch</td>
-<td>List all the branches in your repo, and also tell you what branch you're currently in</td>
-</tr>
+<table style="width:1000px" id="gitTable" border="solid" align="center">
+    <tbody>
+      <tr>
+        <th>Git Commands</th>
+        <th>Corresponding Action</th>
+      </tr>
+      <tr>
+<td>git add</td>
+<td>stages your changes awaiting commit command</td>
+      </tr>
+      <tr>
+        <td>git commit</td>
+        <td>commits your staged changes locally</td>
+      </tr>
+      <tr>
+        <td>git push</td>
+        <td>pushes your committed changes to a remote</td>
+      </tr>
+    </tbody>
 </table>
+</div>
+<div id="third-class" align="center">
+<p>To contact me, fill in the form below and i will get in touch before you say Alakazam!</p>
+<form caction="index.html" method="post" align="center">
+  Name <br>
+  <input type="text" name="Name"placeholder="Your Name please"><br>
+  E-mail address <br>
+  <input type="text" name="E-mail address"placeholder="E-mail address please"><br>
+  Message <br>
+  <input type="text" name="Message" margin="30px 0px 20px 0px" placeholder="Your message please"><br>
+  <input type="Submit" name="Submit" value="Submit">
+</form>
+<br>
+<div class="contact-us"align="center">
+<p>Copyright <a href="notesfromayola.wordpress.com">Ayola Oni</a> 2017</p>
+<p>All rights reserved</p>
+</div>
+</div>
   </body>
 </html>
