@@ -1,0 +1,41 @@
+<style> 
+body {
+    background-color: #ff3431;
+}
+#circle {
+    width: 120px;
+    height: 120px;
+    background: #7fee1d;
+    border-radius: 60px;
+}
+#square {
+    width: 120px;
+    height: 120px;
+    background: #f447ff;
+}
+#rectangle {
+    width: 220px;
+    height: 120px;
+    background: #4da1f7;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #fcf921;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+#blockquote { 
+   				 display: block;
+    			margin-top:3em;
+    			margin-bottom: 3em;
+    			margin-left: 60px;
+    			margin-right: 60px;
+			}
+#table, th, td {
+		    border: 1px solid black;
+		     border-spacing: 5px;
+		      padding: 15px;
+		      text-align: left;
+		  	   }
+</style>
