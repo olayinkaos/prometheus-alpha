@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-	<html>
-		<head>  <meta charset="utf-8"/>
-			<title> ABOUT ME</title>
-			<link rel="stylesheet" type="text/css" href="asserts/css/style.css">
-			
-		</head>
-		<body>
+	<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="foundation/css/foundation.css">
+    <link rel="stylesheet" href="foundation/css/app.css">
+  </head>
+  <body>
+   <div class="row">
+      <div class="large-12 columns">
+        <h1>About Me</h1>
+      </div>
+    </div>
 
-			<h3>Short description about me</h3>
+ <div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+          <h3>Short description about me</h3>
 	
 			<p>Hello, My Name is Hyeladzira (Zira is the short form) Jauni, 
 			I have basic knowledge of html, css and php. And i also work on wordpress.
@@ -17,55 +28,85 @@
 			<blockquote cite="https://www.brainyquote.com/quotes/quotes/a/annielenno468559.html?src=t_basic">
 				We all fight over what the label 'feminism' means but for me it's about empowerment. It's not about being more powerful than men - it's about having equal rights with protection, support, justice. It's about very basic things. It's not a badge like a fashion item.
 			</blockquote>
-		
-
- 			<h4>Table containing GIT commands and their functions</h4>
+        </div>
+      </div>
+    </div>
+			
+			
+ <div class="row">
+         <div class="large-8 columns">
+            <div class="primary callout">
+ 				<h4>Table containing GIT commands and their functions</h4>
  			<table style="width:80%">
-  <tr>
-    <th>GIT COMMAND</th>
-    <th>FUNCTION</th> 
-  </tr>
-  <tr>
-    <td>Git init</td>
-    <td>create a new local repository</td> 
-  </tr>
-  <tr>
-    <td>Git add </td>
-    <td>add one or more files to staging</td> 
-  </tr>
-   <tr>
-    <td>git commit -m "commit message"</td>
-    <td>commit changes to head </td> 
-  </tr>
-</table>
+				  <tr>
+				    <th>GIT COMMAND</th>
+				    <th>FUNCTION</th> 
+				  </tr>
+				  <tr>
+				    <td>Git init</td>
+				    <td>create a new local repository</td> 
+				  </tr>
+				  <tr>
+				    <td>Git add </td>
+				    <td>add one or more files to staging</td> 
+				  </tr>
+				   <tr>
+				    <td>git commit -m "commit message"</td>
+				    <td>commit changes to head </td> 
+				  </tr>
+			</table>
+			</div>
+		</div>
 
 <P>CONTACT ME</P>
-<FORM style="width:50%">
-<fieldset>
-    <legend>Personal information:</legend>
-	First name:<br>
- 	<input type="text" name="firstname"><br>
- 	Last name:<br>
- 	<input type="text" name="lastname"><br>
- 	 Email Address:<br>
-  	<input type="email" name="Email"><br>
- </fieldset>
-<input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="Transgender/animal"> Other<br>
+<form style="width:50%">
+<div class="row">
+            <div class="large-4 medium-4 columns">
+              <label>First Name</label>
+              <input type="text" placeholder="First name " />
+            </div>
+            <div class="large-4 medium-4 columns">
+              <label>Last Name</label>
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="large-4 medium-4 columns">
+              <div class="row collapse">
+                <label>Email</label>
+                <div class="input-group">
+                  <input type="text" placeholder="Email" class="input-group-field" />
+                  <span class="input-group-label">.com</span>
+                </div>
+              </div>
+              </div>
+              </div>
+      <div class="row">
+            <div class="large-4 columns">
+              <label>Select Gender</label>
+              <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-6 columns">
+              <label>Enter Message</label>
+              <textarea placeholder="Enter Message"></textarea>
+           
 
- 	Enter Message here:<br>
- 	 <input type="text" name="Message">
-
- 	  <input type="submit" value="Submit">
-</FORM>
-
-<br>
-<br>
-<br>
+             <p><a href="#" class="button">Submit</a><br/>
+             </p>
+             </div>
+          </div>
+        </form>
+ </div>
 
 <a href="portfolio.html">Visit my portfolio</a><br>
 
 <a href="index.html">click here to go back</a>
+  <script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script src="foundation/js/app.js"></script>
 		</body>
 </html>
