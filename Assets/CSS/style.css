@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+
+#main-text {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  text-align: center;
+  margin: 30px 0px 20px 0px;
+}
+
+.secondary-text {
+border-style: solid;
+border-width: medium;
+border-color: black;
+text-align: center;
+margin: 30px 0px 20px 0px;
+}
+
+.third-class {
+border-style: solid;
+border-width: medium;
+border-color: black;
+text-align: center;
+margin: 30px 0px 20px 0px;
+}
+
+
+.fourth-class {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  text-align: center;
+  margin: 30px 0px 20px 0px;
+  }
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #7fee1d;
+    border-style: solid;
+    border-radius: 60px;
+}
+.square {
+    width: 126px;
+    height: 126px;
+    background: #f447ff;
+}
+.rectangle {
+    width: 260px;
+    height: 130px;
+    background: #4da1f7;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #fcf921;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
