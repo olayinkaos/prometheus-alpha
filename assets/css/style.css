@@ -86,9 +86,11 @@ h2{
 .table th{
 
    border: 1px solid black;
+   color: black;
 }
 .table td{
 	border: 1px solid black;
+  color: black;
 }
 #rectangle{
   width:500px;
@@ -118,4 +120,5 @@ h2{
   border-bottom: 100px solid #CD5C5C;
   margin-top: 10px;
 }
+
 
