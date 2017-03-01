@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Shapes</title>
-	<meta charset="utf-8">
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="foundation/css/foundation.css">
+	<link rel="stylesheet" href="foundation/css/app.css">
 </head>
 <body>
 	<!-- <table class="TopSpot">
@@ -13,15 +17,34 @@
 			<th><a href="portfolio.html">Portfolio</a></th>
 		</tr>
 	</table> -->
-	<nav class="main-nav">
-		<ul class="main-nav__item">
-			<li class="main-nav__items"><a href="index.html">Index</a></li>
-			<li class="main-nav__items"><a href="about.html">About</a></li>
-			<li class="main-nav__items" id="active"><a href="shapes.html">Shapes</a></li>
-			<li class="main-nav__items"><a href="portfolio.html">Portfolio</a></li>
-		</ul>
-	</nav>
+<div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="menu"></button>
+  <div class="title-bar-title">Freggy</div>
+</div>
 
+<div class="top-bar" id="menu">
+  <div class="top-bar-left">
+    <ul class="menu">
+      <li class="menu-text">Freggy</li>
+		      <li><a href="index.html">Index</a></li>
+		      <li><a href="about.html">About</a></li>
+		      <li><a href="shapes.html">Shapes</a></li>
+		      <li><a href="portfolio.html">Portfolio</a></li>
+		    </ul>
+	</div>
+	<div class="top-bar-right">
+	    <ul class="dropdown menu" data-dropdown-menu>
+	    	<li><a href="#">Profile</a>
+			<ul class="menu vertical">
+          		<li><a href="#">Profile</a></li>
+          		<li><a href="#">Logout</a></li>
+          	</ul></li>
+	    	<li><input type="search" placeholder="Search"></li>
+	    	<li><button type="button" class="button">Search</button></li>
+			
+	    </ul>
+	</div>
+</div>
 	<h1>Shapes</h1>
 	<br>
 	<div class="body_view">
@@ -35,7 +58,7 @@
 		<div id="circle_right"></div></div><br>
 	<div id="body_view">
 		<div id="triangle_left"></div>
-		<div id="triangle_right"></div></div><br>
+		<div id="triangle_right"></div></div>
 
 	<footer>
   <!--<p>Posted by: Efe Fregene <br> Contact information: <a href="mailto:efe.fregene@gmail.com">
@@ -46,6 +69,9 @@
 		</ul>
 	</nav>
 </footer>
-</body>
+<script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script src="foundation/js/app.js"></script>
+  </body>
 </html>
-

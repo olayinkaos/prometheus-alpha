@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>About</title>
-	<meta charset="utf-8">
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<link rel="stylesheet" href="foundation/css/foundation.css">
+	<link rel="stylesheet" href="foundation/css/app.css">
 </head>
 <body>
-	
 	<!-- <table class="TopSpot">
 		<tr>
 			<th><a href="index.html">Index</a></th>
@@ -15,20 +17,41 @@
 			<th><a href="portfolio.html">Portfolio</a></th>
 		</tr>
 	</table> -->
-	<nav class="main-nav">
-		<ul class="main-nav__item">
-			<li class="main-nav__items"><a href="index.html">Index</a></li>
-			<li class="main-nav__items" id="active"><a href="about.html">About</a></li>
-			<li class="main-nav__items"><a href="shapes.html">Shapes</a></li>
-			<li class="main-nav__items"><a href="portfolio.html">Portfolio</a></li>
-		</ul>
-	</nav>
+<div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="menu"></button>
+  <div class="title-bar-title">Freggy</div>
+</div>
 
-	<br><div class="inner-left">Here is a quote from Today's Prometheus README.txt</div>
-	<blockquote class="left" cite="https://github.com/olayinkaos/prometheus-alpha/blob/efefregene/readme.txt"> I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.<br>-Galatians 2:20 King James Version (KJV)
-	</blockquote><br>
+<div class="top-bar" id="menu">
+  <div class="top-bar-left">
+    <ul class="menu">
+      <li class="menu-text">Freggy</li>
+		      <li><a href="index.html">Index</a></li>
+		      <li><a href="about.html">About</a></li>
+		      <li><a href="shapes.html">Shapes</a></li>
+		      <li><a href="portfolio.html">Portfolio</a></li>
+		    </ul>
+	</div>
+	<div class="top-bar-right">
+	    <ul class="dropdown menu" data-dropdown-menu>
+	    	<li><a href="#">Profile</a>
+			<ul class="menu vertical">
+          		<li><a href="#">Profile</a></li>
+          		<li><a href="#">Logout</a></li>
+          	</ul></li>
+	    	<li><input type="search" placeholder="Search"></li>
+	    	<li><button type="button" class="button">Search</button></li>
+			
+	    </ul>
+	</div>
+</div>
+	<br>
+<div class="row">
+	<div class="large-8 large-offset-4 large-centered columns"><p>Here is a quote from Today's Prometheus README.txt</p>
+	<blockquote class="left" cite="https://github.com/olayinkaos/prometheus-alpha/blob/efefregene/readme.txt"> I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.</blockquote><cite>Galatians 2:20 King James Version (KJV)</cite>
+	<br></div></div>
 
-<h2 id="gitHeader">MY GIT RELATED GIST</h2>
+<h3 id="gitHeader">MY GIT RELATED GIST</h3>
 	<table id="gitTable">
 		<tr class="toTheLeft">
 			<th>GIT Command</th>
@@ -48,7 +71,7 @@
 		</tr>
 	</table><br>
 
-<h3 class="inner-left">To send any message, fill your details below</h3>
+<h4 class="inner-left">To send any message, fill your details below</h4>
 <div class="formStyle">
   <form action="/action_page.php">
     <label for="fname">First Name</label><br>
@@ -72,5 +95,9 @@
 		</ul>
 	</nav>
 </footer>
-</body>
+<script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script src="foundation/js/app.js"></script>
+  </body>
 </html>

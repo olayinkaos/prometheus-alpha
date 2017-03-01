@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Index</title>
-	<meta charset="utf-8">
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="foundation/css/foundation.css">
+	<link rel="stylesheet" href="foundation/css/app.css">
 </head>
 <body>
 	<!-- <table class="TopSpot">
@@ -13,33 +17,67 @@
 			<th><a href="portfolio.html">Portfolio</a></th>
 		</tr>
 	</table> -->
-	<nav class="main-nav">
-		<ul class="main-nav__item">
-			<li class="main-nav__items" id="active"><a href="index.html">Index</a></li>
-			<li class="main-nav__items"><a href="about.html">About</a></li>
-			<li class="main-nav__items"><a href="shapes.html">Shapes</a></li>
-			<li class="main-nav__items"><a href="portfolio.html">Portfolio</a></li>
+<div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="menu"></button>
+  <div class="title-bar-title">Freggy</div>
+</div>
+
+<div class="top-bar" id="menu">
+  <div class="top-bar-left">
+    <ul class="menu">
+      <li class="menu-text">Freggy</li>
+		      <li><a href="index.html">Index</a></li>
+		      <li><a href="about.html">About</a></li>
+		      <li><a href="shapes.html">Shapes</a></li>
+		      <li><a href="portfolio.html">Portfolio</a></li>
+		    </ul>
+	</div>
+	<div class="top-bar-right">
+	    <ul class="dropdown menu" data-dropdown-menu>
+	    	<li><a href="#">Profile</a>
+			<ul class="menu vertical">
+          		<li><a href="#">Profile</a></li>
+          		<li><a href="#">Logout</a></li>
+          	</ul></li>
+	    	<li><input type="search" placeholder="Search"></li>
+	    	<li><button type="button" class="button">Search</button></li>
+			
+	    </ul>
+	</div>
+</div>
+
+<h1>Introduction</h1>
+<div class="row">	
+	<div class="medium-4 columns">
+		
+		<h2>Dawn</h2>
+		<p class="inner-left">Our Prometheus coach has given us the right to rant on this platform so that's kinda nice. I will rather just type whatever comes to mind. What do I want to talk about now oo...Like Zira, I will list the memebers of the group namely: Ayoola, Benn, Dotun, Francis, Olajire, Shiewhun, Tochukwu, Zira and me. Is it long enough now?</p>
+	</div>
+	<div class="medium-4 columns">
+		<h2>Mid-day</h2>
+		<p class="inner-left">From 9am till 4pm in Uyo is as hot as an Oven. Well, this is an exaggeration but one well deserved. As a Strolling hobbiyist, it is a provoking circumstance as it would cause me to be drenched after any of my walks. Uniuyo doesn't even help reduce the effect as most of their surroundings have little tree cover and the area is largely cover in sand.</p>
+	</div>
+	<div class="medium-4 columns">	
+		<h2>Dusk</h2>
+		<q>Valar Morghulis is a common greeting in Braavos, meaning "all men must die" in High Valyrian. It is meant in the sense of "all men must (eventually) die," sooner or later, somewhat like the Latin saying "memento mori." The customary response is Valar Dohaeris — ALL MEN MUST SERVE.</q><br>Now that been said... Aurevior
+	</div>
+</div><br>
+
+<div class="row">
+	<div class="large-8 large-offset-4 large-centered columns">
+		<h2>Difference between Ids and classes</h2>
+		<p class="inner-left">Having used these attributes on numerous occasions making this HTML and CSS exclusive website, I would like to proffer differences between these attributes from personal experience </p>
+		<ul class="inner-left">
+			<li>
+				IDs are used to identify a specific (singular) attribute while Class can be used identify more than one attribute.
+			</li>
+			<li>
+				When IDs are referred to in in a stylesheet or in the Head of a particular HTML file, it is preceeded by a '#' while a Class is preceeded by a period sign
+			</li>
 		</ul>
-	</nav>
+	</div>
+</div>
 
-	<h1>Introduction</h1>
-	<h2>Dawn</h2>
-	<p class="inner-left">Our Prometheus coach has given us the right to rant on this platform so that's kinda nice. I will rather just type whatever comes to mind. What do I want to talk about now oo...Like Zira, I will list the memebers of the group namely: Ayoola, Benn, Dotun, Olajire, Shiewhun, Tochukwu, Zira and me. Is it long enough now?</p>
-	<h2>Mid-day</h2>
-	<p class="inner-left">From 9am till 4pm in Uyo is as hot as mid day</p>
-	<h2>Dusk</h2>
-	<q>Valar Morghulis is a common greeting in Braavos, meaning "all men must die" in High Valyrian. It is meant in the sense of "all men must (eventually) die," sooner or later, somewhat like the Latin saying "memento mori." The customary response is Valar Dohaeris — "all men must serve."<br> <br>Now that been said... Aurevior</q>
-
-	<h2>Difference between Ids and classes</h2>
-	<p class="inner-left">Having used these attributes on numerous occasions making this HTML and CSS exclusive website, I would like to proffer differences between these attributes from personal experience </p>
-	<ul class="inner-left">
-		<li>
-			IDs are used to identify a specific (singular) attribute while Class can be used identify more than one attribute.
-		</li>
-		<li>
-			When IDs are referred to in in a stylesheet or in the Head of a particular HTML file, it is preceeded by a '#' while a Class is preceeded by a period sign
-		</li>
-	</ul>
 <footer>
   <!--<p>Posted by: Efe Fregene <br> Contact information: <a href="mailto:efe.fregene@gmail.com">
   efe.fregene@gmail.com</a>.</p>-->
@@ -49,5 +87,9 @@
 		</ul>
 	</nav>
 </footer>
-</body>
+<script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script src="foundation/js/app.js"></script>
+  </body>
 </html>
