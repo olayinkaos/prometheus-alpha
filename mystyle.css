@@ -1,7 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+
 body
 {
 	background-color: #FFF;
@@ -76,11 +73,62 @@ body
 	display: inline-block;
 	margin-left: 10px;
 }	
-
-/* By OS*/
 .portfolio-image img{
-	float: left;
-	width: 50%;
-	height: 400px;
-	object-fit: cover;
-}
+ 	float: left;
+ 	width: 50%;
+ 	height: 400px;
+ 	object-fit: cover;
+	}
+.page-header 
+	{
+		font-family: Ubuntu;
+		font-size: 45px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+#checkout
+	{
+		text-align: center;
+		font-size: 32px;
+		font-family: Montserrat;
+		padding: 10px;
+		margin: 15px;
+	}
+iframe
+	{
+		margin: auto;
+		height: 600px;
+		width:100% ;
+	}
+.about-body
+	{
+		background-color: white;
+		color: black;
+	}
+	table{
+		width: 100%;
+	}
+	table, th, td
+	{
+		border: 1px solid ;
+		border-collapse: collapse;
+		padding: 15px;
+	}
+	th {
+		font-family: verdana;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.code 
+	{
+		display: inline-block;
+		color:green;
+	}
+	.quote
+	{
+		background-color: black;
+		display: block;
+		text-align:center;
+		font-style: italic;
+		font-size: 25px;
+	}
