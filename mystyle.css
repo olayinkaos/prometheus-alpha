@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: #FFF;
+}
+.heading
+	{
+		background-color: #EEEEEE;
+
+	}
+.nav 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.nav li {
+  color: black;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 15px;
+
+}
+ #oscar
+ {
+ 	margin-right: 250px;
+ 	font-size: 30px;
+ 	border: 1px solid black;
+ 	padding: 10 px;
+ }
+ .nav a
+ {
+ 	text-decoration: none;
+ 	color: black;
+ }
+#title
+{
+	text-align: center;
+	font-family: Comfortaa;
+	font-size: 35px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	width: auto;
+
+}
+	
+.main
+{
+	font-size: 20px;
+	font-weight: 100;	
+}
+.subtitle
+{
+	font-size: 30px;
+	margin: 20px 5px;
+	padding: 5px;
+	font-family: Montserrat;
+
+}
+.winner
+{
+	font-style: italic;
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 10px;
+}	
