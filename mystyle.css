@@ -76,3 +76,11 @@ body
 	display: inline-block;
 	margin-left: 10px;
 }	
+
+/* By OS*/
+.portfolio-image img{
+	float: left;
+	width: 50%;
+	height: 400px;
+	object-fit: cover;
+}
