@@ -24,7 +24,9 @@ body
   margin-right: 40px;
   text-transform: uppercase;
   text-decoration: none;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-collapse: collapse;
   padding: 15px;
 
 }
