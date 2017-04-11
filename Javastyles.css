@@ -1,0 +1,12 @@
+* {
+  background-color: black;
+}
+.header{
+  text-align: center !important;
+  color: white !important;
+  font-size: 65px !important;
+}
+
+input{
+  background-color: white !important;
+}
